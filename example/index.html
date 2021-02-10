@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Animation</title>
+    <style>
+      .tree-container{
+        padding-top: 25px;
+      }
+
+      .tree-box{
+        position: relative;
+        height: 350px;
+        width: 350px;
+        background-color: red;
+      }
+
+      #leaf{
+        width: 30px;
+        height: 50px;
+        position: absolute;
+        left: 120px;
+        top: 210px;
+      }
+
+      #leaf2{
+        width: 30px;
+        height: 50px;
+        position: absolute;
+        left: 245px;
+        top: 210px;
+      }
+
+      #leaf_block{
+        width: 5px;
+        height: 5px;
+        background-color: green;
+        position: absolute;
+        left: 120px;
+        top: 210px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container tree-container">
+      <div class="row">
+        <div class="col-5 tree-row">
+          <div class="tree-box">
+            <img  id="tree" src="img/tree.svg" alt="">
+            <img id="leaf" src="img/leaf.svg">
+          </div>
+        </div>
+        <div class="col-5 tree-row">
+          <div class="tree-box">
+            <img  id="tree" src="img/tree.svg" alt="">
+            <div id="leaf_block"></div>
+          </div>
+        </div>
+        <!-- <div class="col-2">
+          <button onclick="LeafStart()">click</button>
+        </div> -->
+      </div>
+    </div>
+
+    <script>
+      function LeafStart() {
+        var leaf = document.getElementById("leaf");
+        var leaf_block = document.getElementById("leaf_block");
+        var position = 210;
+        var id = setInterval(frame, 15);
+        function frame() {
+          if (position == 320) {
+            clearInterval(id);
+            leaf.style.top = 210 + "px";
+            leaf_block.style.top = 210 + "px";
+            position = 210;
+            LeafStart();
+          } else {
+            position ++;
+            leaf.style.top = position + "px";
+            leaf_block.style.top = position + "px";
+          }
+        }
+      }
+
+      LeafStart();
+    </script>
+  </body>
+</html>
