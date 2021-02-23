@@ -248,4 +248,8 @@
  .counters-item-wrapper:nth-child(5){
    display: none;
   }
+ /* Partners */
+  .partners{
+  height: auto;
+  }
 }
