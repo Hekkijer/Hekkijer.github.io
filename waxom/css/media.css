@@ -256,7 +256,7 @@
    display: none;
   }
  /* Partners */
-  .partners{
-    display: none;
+  .partners-bg{
+    height: auto;
   }
 }
