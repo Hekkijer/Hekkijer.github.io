@@ -113,9 +113,15 @@
 /* If screen <= 992px */
 @media screen and (max-width: 992px) {
   /* Header */
-  /*.header .slider-dots-wrapper{
-  	display: none;
-  }*/
+  .header .slider-item-title{
+  	font-size: 21px;
+  }
+  .header .slider-item-subtitle{
+  	font-size: 16px;
+  }
+  .header .slider-item-content{
+  	font-size: 12px;
+  }
   /* Services */
   .services-item-line{
   	display: none;
@@ -229,16 +235,6 @@
 
 /* If screen <= 608px */
 @media screen and (max-width: 608px) {
-  /* Header */
-  .header .slider-item-title{
-  	font-size: 21px;
-  }
-  .header .slider-item-subtitle{
-  	font-size: 16px;
-  }
-  .header .slider-item-content{
-  	font-size: 12px;
-  }
   /* Purchase */
   .purchase-content-wrapper{
   	padding-left: 15px;
