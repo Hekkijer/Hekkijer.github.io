@@ -257,6 +257,6 @@
   }
  /* Partners */
   .partners{
-    height: auto;
+    display: none;
   }
 }
