@@ -21,7 +21,12 @@
 
 /* Remove Chrome Scrollbar */
 body::-webkit-scrollbar{
-  display: none;
+  width: 0;
+}
+
+/* Remove Scrollbar from FireFox */
+@-moz-document url-prefix() {
+    html,body{overflow: hidden !important;}
 }
 
 /* Paddings & margins are part of width/height */
