@@ -245,10 +245,10 @@
 @media screen and (max-width: 500px) {
  /* Header */
  .header .slider-item-title{
-  	font-size: 14px;
+  	font-size: 6px;
   }
   .header .slider-item-subtitle{
-  	font-size: 11px;
+  	font-size: 5px;
   }
  /*Counters */
  .counters-item-wrapper:nth-child(4),
@@ -257,6 +257,6 @@
   }
  /* Partners */
   .partners{
-  height: auto;
+    height: auto;
   }
 }
