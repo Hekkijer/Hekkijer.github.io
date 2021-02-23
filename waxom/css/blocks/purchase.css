@@ -1,0 +1,53 @@
+.purchase{
+  width: 100%;
+  background-image: linear-gradient(to right, #221c1a, #4e3427);
+
+}
+
+.purchase-content-wrapper{
+	padding: 50px 0;
+}
+
+.purchase-content-title{
+  font-size: 28px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+}
+
+.purchase-content-title:first-child{
+  color: #c7b299;
+  margin-right: 5px;
+}
+
+.purchase-content-content{
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #5e5855;
+}
+
+.purchase-button-wrapper{
+  display: flex;
+  align-items: center!important;
+}
+
+.purchase-button-item{
+  width: 170px;
+  height: 45px;
+  background-color: #988574;
+  border: none;
+  border-bottom: 2px solid #726257;
+  font-size: 14px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  color: #fff;
+  display: block;
+}
+
+
+.purchase-button-item:hover{
+  background-color: #726257;
+  border:none;
+}

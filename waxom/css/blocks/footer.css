@@ -1,0 +1,41 @@
+.footer-bg{
+  background-color: #101010;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.footer-link, .footer-link p{
+  display: inline-block;
+}
+
+.footer-link{
+  margin-right: 10px;
+}
+
+.footer-link p{
+  color: #959595 !important;
+}
+
+.footer-link p, .footer-link, .footer-link:hover{
+  font-size: 13px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #555555;
+}
+
+.footer-link:hover{
+  text-decoration: underline;
+}
+
+.footer-link p:hover{
+  color: #c7b299!important;
+}
+
+.footer-autor{
+  display: flex;
+  justify-content: flex-end!important;
+}
+
+.footer-link.autor:hover{
+  text-decoration:none;
+}

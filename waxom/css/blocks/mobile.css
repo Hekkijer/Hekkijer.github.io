@@ -1,0 +1,38 @@
+.mobile-bg-wrapper{
+  display: flex;
+  justify-content: flex-end!important;
+  padding-top: 80px;
+}
+
+.mobile-content-wrapper{
+  padding-top: 193px;
+}
+
+.mobile-content-title{
+  font-size: 30px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  cursor: #555555;
+  margin-bottom: 40px;
+}
+
+.mobile-content-content{
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  cursor: #8c8c8c;
+}
+
+.mobile-content-list-item{
+  padding-left: 30px;
+}
+
+.mobile-content-list{
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  cursor: #8c8c8c;
+  list-style-image: url(../../assets/img/mobile/mobile-list-arrow.svg);
+  margin-top: 40px;
+  margin-left: 50px;
+}

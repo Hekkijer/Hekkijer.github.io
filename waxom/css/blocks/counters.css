@@ -1,0 +1,32 @@
+.counters{
+  width: 100%;
+  background-image: linear-gradient(to right, #221c1a, #4e3427);
+  padding-top: 65px;
+  padding-bottom: 48px;
+}
+
+.counters-item-wrapper{
+  display: flex;
+  justify-content: center!important;
+  text-align: center;
+}
+
+.counters-item-icon{
+  margin-bottom: 30px;
+}
+
+.counters-item-title{
+  font-size: 48px;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.counters-item-content{
+  font-size: 14px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #c7b299;
+  margin-bottom: 27px;
+}

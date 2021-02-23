@@ -1,0 +1,31 @@
+.services{
+  padding-top: 87px;
+  padding-bottom: 152px;
+}
+
+.services-item-wrapper{
+  display: flex;
+  justify-content: center!important;
+  align-items: center!important;
+  text-align: center;
+}
+
+.services-item-title{
+  margin-top: 34px;
+  margin-bottom: 27px;
+  font-family: 'Raleway';
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.services-item.active .services-item-title{
+  color: #c7b299;
+}
+
+.services-item-content{
+  text-align: center;
+  margin-bottom: 33px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 14px;
+}

@@ -1,0 +1,33 @@
+.title-item-title{
+  font-size: 30px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555555;
+}
+
+.title-item-content{
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 42px;
+  color: #8c8c8c;
+}
+
+.promo-item-wrapper{
+  position: relative;
+}
+
+.promo-item-image{
+  height: 100%;
+  width: 100%;
+}
+
+.promo-item.left, .promo-item.right{
+  position: absolute;
+  z-index: -1;
+  padding-top: 91px;
+  height: 100%;
+}
