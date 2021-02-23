@@ -258,5 +258,9 @@
  /* Partners */
   .partners-bg{
     height: auto;
+    background-repeat: no-repeat;
+  }
+  .partners-item{
+    margin-bottom: 15px;
   }
 }
