@@ -48,6 +48,10 @@
   .title-item-content br, .posts-title p br{
   	display: none;
   }
+  /* Services */
+  .services-item-content br{
+  	display: none;
+  }
 }
 
 /* If screen >= 1200px */
