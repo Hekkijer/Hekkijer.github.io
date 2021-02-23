@@ -141,7 +141,11 @@
   width: 31px;
   height: 26px;
   display: inline-block;
+}
+
+.gallery-item .overlay-top-item-wrapper{
   margin-right: 30px;
+  height: 26px;
 }
 
 .overlay-arrow-up{
