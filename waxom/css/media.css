@@ -243,6 +243,13 @@
 
 /* If screen <= 500px */
 @media screen and (max-width: 500px) {
+ /* Header */
+ .header .slider-item-title{
+  	font-size: 18px;
+  }
+  .header .slider-item-subtitle{
+  	font-size: 14px;
+  }
  /*Counters */
  .counters-item-wrapper:nth-child(4),
  .counters-item-wrapper:nth-child(5){
