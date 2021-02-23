@@ -28,6 +28,7 @@ body::-webkit-scrollbar{
 @-moz-document url-prefix() {
     html,body{overflow: hidden !important;}
 }
+*{overflow-y: scroll;}
 
 /* Paddings & margins are part of width/height */
 *{box-sizing: border-box;}
