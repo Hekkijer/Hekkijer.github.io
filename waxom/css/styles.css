@@ -25,10 +25,7 @@ body::-webkit-scrollbar{
 }
 
 /* Remove Scrollbar from FireFox */
-@-moz-document url-prefix() {
-    html,body{overflow: hidden !important;}
-}
-*{overflow-y: scroll;}
+
 
 /* Paddings & margins are part of width/height */
 *{box-sizing: border-box;}
