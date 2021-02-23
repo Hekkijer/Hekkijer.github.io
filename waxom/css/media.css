@@ -245,10 +245,10 @@
 @media screen and (max-width: 500px) {
  /* Header */
  .header .slider-item-title{
-  	font-size: 12px;
+  	font-size: 18px!important;
   }
   .header .slider-item-subtitle{
-  	font-size: 12px;
+  	font-size: 14px!important;
   }
  /*Counters */
  .counters-item-wrapper:nth-child(4),
