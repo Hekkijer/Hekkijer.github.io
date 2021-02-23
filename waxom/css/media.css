@@ -1,0 +1,247 @@
+/* If not desktop - no 100vh */
+@media screen and (max-height: 720px) {
+  /* Header */
+  .header{
+  	height: auto;
+  	padding-bottom: 40px;
+  }
+  .header::before{
+  	height: 100%;
+  	padding-top: 
+  }
+}
+
+/* If screen <= 1794px */
+@media screen and (max-width: 1794px) {
+  .header .slider-item-title{
+  	font-size: 38px;
+  }
+
+  .header .slider-item-subtitle{
+  	font-size: 26px;
+  }
+
+  .header .slider-item-content br{
+  	display: none;
+  }
+}
+
+/* If screen <= 1400px */
+@media screen and (max-width: 1400px) {
+  /* Header */
+  .header .slider-item-title{
+  	font-size: 30px;
+  }
+
+  .header .slider-item-subtitle{
+  	font-size: 20px;
+  }
+
+  .header .slider-item-content{
+  	font-size: 14px;
+  }
+
+  .header .nav-list-item{
+  	margin-right: 15px;
+  }
+  /* General page title  */
+  .title-item-content br, .posts-title p br{
+  	display: none;
+  }
+}
+
+/* If screen >= 1200px */
+@media screen and (min-width: 1201px) {
+  /* Header */
+  .header .nav-icons-tablet{
+  	display: none;
+  }
+  /* Links */
+  .links-about-tablets{
+  	display: none;
+  }
+}
+
+/* If screen <= 1200px */
+@media screen and (max-width: 1200px) {
+  /* Header */
+  .header .nav-list-wrapper{
+  	display: none;
+  }
+
+  .nav-icons-item .nav-icons-cart{
+  	display: none;
+  }
+
+  .nav-icons-tablet{
+  	display: block;
+  }
+
+  .header .nav-logo-wrapper{
+  	justify-content: flex-end!important;
+  }
+
+  .header .slider-item-title{
+  	font-size: 26px;
+  }
+  /* Services */
+  .services-item-content br{
+  	display: none;
+  }
+  /* Purchase */
+  .purchase-content-title{
+  	font-size: 20px;
+  }
+  /* Posts */
+  .posts-item-wrapper{
+  	margin-bottom: 40px;
+  }
+  .posts-item{
+  	width: auto;
+  }
+  /* Links */
+  .links-about-item p{
+  	display: none;
+  }
+
+  .links-about-tablets{
+  	display: block!important;
+  }
+
+}
+
+/* If screen <= 992px */
+@media screen and (max-width: 992px) {
+  /* Header */
+  /*.header .slider-dots-wrapper{
+  	display: none;
+  }*/
+  /* Services */
+  .services-item-line{
+  	display: none;
+  }
+
+  .services-item-wrapper{
+  	align-items: flex-end!important;
+  }
+
+  /* Projects */
+  .projects .nav-item{
+  	padding: 5px;
+  }
+  /* Counters */
+  .counters-item-title{
+  	font-size: 28px;
+  	margin-bottom: 5px;
+  }
+
+  .counters-item-icon{
+  	margin-bottom: 5px;
+  }
+
+  .counters-item-content{
+  	font-size: 12px;
+  	margin-bottom: 5px;
+  }
+  /* Posts */
+  .posts-item-wrapper{
+  	margin-bottom: 40px;
+  }
+  .posts-item{
+  	width: auto;
+  }
+  /* Partners */
+  .partners-bg{
+  	padding-top: 40px;
+  	padding-bottom: 0;
+  }
+  .partners-item{
+  	margin-bottom: 20px;
+  }
+  /* Links */
+  .links-about-heading{
+  	align-items: flex-end!important;
+  }
+
+  .links-about-heading h1{
+  	font-size: 28px;
+  }
+
+  .links-widget-heading h1,
+  .links-posts-heading h1,
+  .links-twitter-heading h1{
+  	font-size: 21px;
+  }
+
+  /* Footer */
+  .footer-autor{
+  	justify-content: end!important;
+  	margin-top: 15px;
+  }
+}
+
+/* If screen >= 769 */
+@media screen and (min-width: 769px) {
+  .projects .tablet-button-wrapper{
+  	display: none;
+  }
+}
+
+/* If screen <= 768 */
+@media screen and (max-width: 768px) {
+  /* Header */
+  .header .nav-icons-wrapper{
+  	padding-top: 15px;
+  }
+  /* Purchase */
+  .purchase-button-wrapper{
+  	display: flex;
+  	justify-content: flex-end!important;
+  	align-items: center!important;
+  	margin-top: 15px;
+  }
+  .purchase-content-wrapper{
+  	padding: 0;
+  }
+  .purchase{
+  	padding-top: 30px;
+  	padding-bottom: 30px;
+  }
+  /* Promo */
+  .promo-item.left, .promo-item.right{
+  	display: none;
+  }
+  /* Projects */
+  .projects .nav-item-wrapper{
+  	display: none;
+  }
+  .projects-tablet-button{
+  	display: block;
+  }
+  /* Mobile */
+  .mobile-bg-wrapper{
+  	display: none;
+  }
+  .mobile{
+  	display: none;
+  }
+}
+
+/* If screen <= 608px */
+@media screen and (max-width: 608px) {
+  /* Header */
+  .header .slider-item-title{
+  	font-size: 21px;
+  }
+  .header .slider-item-subtitle{
+  	font-size: 16px;
+  }
+  .header .slider-item-content{
+  	font-size: 12px;
+  }
+  /* Purchase */
+  .purchase-content-wrapper{
+  	padding-left: 15px;
+  }
+}
+

@@ -1,0 +1,28 @@
+/* Bootstrap & Normalize */
+@import url("bootstrap-grid.css");
+@import url("normalize.css");
+
+/* Blocks */
+@import url("blocks/header.css");
+@import url("blocks/services.css");
+@import url("blocks/promo.css");
+@import url("blocks/purchase.css");
+@import url("blocks/projects.css");
+@import url("blocks/video.css");
+@import url("blocks/mobile.css");
+@import url("blocks/counters.css");
+@import url("blocks/posts.css");
+@import url("blocks/partners.css");
+@import url("blocks/links.css");
+@import url("blocks/footer.css");
+
+/* Media Quaries */
+@import url("media.css");
+
+/* Remove Chrome Scrollbar */
+body::-webkit-scrollbar{
+  display: none;
+}
+
+/* Paddings & margins are part of width/height */
+*{box-sizing: border-box;}
