@@ -1,0 +1,33 @@
+.banner{
+  background-image: url("../../img/banner/banner-bg.jpg");
+  width: 100%;
+  padding-top: 98px;
+  height: 326px;
+}
+
+.banner-wrapper{
+  display: flex;
+  justify-content: center!important;
+}
+
+.banner-title{
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 23px;
+  color: #fff;
+  text-align: center;
+  height: 36px;
+  width: 178px;
+  margin-bottom: 28px;
+}
+
+.banner-content{
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  line-height: 2;
+}

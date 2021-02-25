@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	margin: 0;
+	line-height: .8;
+}
+
+h2{
+	margin: 0;
+	line-height: .8;
+}
+
+p{
+	margin: 0;
+	line-height: 1.5;
+}
