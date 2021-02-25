@@ -1,0 +1,29 @@
+/* Bootstrap & Normalize */
+@import url("bootstrap-grid.css");
+@import url("normalize.css");
+
+/* Blocks */
+@import url("blocks/header.css");
+@import url("blocks/banner.css");
+@import url("blocks/statistics.css");
+@import url("blocks/footer.css");
+
+/* Media Quaries */
+@import url("media.css");
+
+/* Remove Scrollbar from Chrome, Yandex, Opera */
+body::-webkit-scrollbar{
+  width: 0;
+}
+
+/* Remove Scrollbar from FireFox */
+@-moz-document url-prefix() {
+    html,body{overflow: hidden !important;}
+}
+
+/* Paddings & margins are part of width/height */
+*{box-sizing: border-box;}
+
+
+/* Debug grid */
+/**{ border:1px solid red; box-sizing:border-box; }*/
