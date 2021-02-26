@@ -1,3 +1,16 @@
+/* If not desktop - no 100vh */
+@media screen and (max-height: 1000px) {
+  /* Header */
+  .header{
+  	height: auto;
+  	padding-bottom: 40px;
+  }
+  .header::before{
+  	height: 100%;
+  	padding-top: 
+  }
+}
+
 /* If screen <= 1794px */
 @media screen and (max-width: 1794px) {
   .header .slider-item-title{
