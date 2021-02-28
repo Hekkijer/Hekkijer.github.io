@@ -1,5 +1,5 @@
 /* If not desktop - no 100vh */
-@media screen and (max-height: 720px) {
+@media screen and (max-height: 800px) {
   /* Header */
   .header{
   	height: auto;
