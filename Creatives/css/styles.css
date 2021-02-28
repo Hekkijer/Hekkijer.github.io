@@ -30,7 +30,7 @@ body::-webkit-scrollbar{
 
 /* Remove Scrollbar from FireFox */
 @-moz-document url-prefix() {
-    html,body{overflow: hidden !important;}
+  html{scrollbar-width: 0;}
 }
 
 /* Paddings & margins are part of width/height */
