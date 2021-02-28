@@ -1,0 +1,78 @@
+/* If screen <= 1400px */
+@media screen and (max-width: 1400px) {
+	/* Header */
+	.header .navbar-list-item{
+		font-size: 14px;
+	}
+	/* Blog */
+	.blog .article-content br{
+		display: none;
+	}
+}
+
+/* If screen <= 1200px */
+@media screen and (max-width: 1200px) {
+	br{
+		display: none;
+	}
+	/* News */
+	.news .content-wrapper{
+		padding-left: 20px;
+	}
+	/* Blog */
+	.blog .article-wrapper{
+		margin-bottom: 50px;
+	}
+}
+
+/* If screen <= 992px */
+@media screen and (max-width: 992px) {
+	/* Header */
+	.header .navbar-icons{
+		display: none;
+	}
+	.header .heading-title{
+		font-size: 90px;
+	}
+	/* Team */
+	.team .member-wrapper{
+		margin-bottom: 50px;
+	}
+	/* About */
+	.about .feature-wrapper{
+		margin-bottom: 50px;
+	}
+	/* News */
+	.news{
+		display: none;
+	}
+	/* Action */
+	.action-item-wrapper{
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.feature{
+		display: none;
+	}
+	.contacts-title{
+		font-size: 30px;
+	}
+	.header .logo-wrapper{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.header .navbar-list{
+		display: none;
+	}
+	.header .heading-title{
+		font-size: 70px;
+	}
+}
+
+@media screen and (max-height: 800px) {
+	.header{
+		height: auto;
+	}
+}

@@ -1,0 +1,41 @@
+/* Bootstrap & Normalize */
+@import url("../libs/bootstrap/bootstrap-grid.css");
+@import url("normalize.css");
+
+/* Blocks */
+@import url("blocks/header.css");
+@import url("blocks/about.css");
+@import url("blocks/news.css");
+@import url("blocks/blog.css");
+@import url("blocks/action.css");
+@import url("blocks/feature.css");
+@import url("blocks/team.css");
+@import url("blocks/contacts.css");
+@import url("blocks/footer.css");
+
+/* Media Quaries */
+@import url("media.css");
+
+/* Font Awesome */
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+i {
+font-family: fontawesome !important;
+}
+
+
+/* Remove Scrollbar from Chrome, Yandex, Opera */
+body::-webkit-scrollbar{
+  width: 0;
+}
+
+/* Remove Scrollbar from FireFox */
+@-moz-document url-prefix() {
+    html,body{overflow: hidden !important;}
+}
+
+/* Paddings & margins are part of width/height */
+*{box-sizing: border-box;}
+
+
+/* Debug grid */
+/**{ border:1px solid red; box-sizing:border-box; }*/

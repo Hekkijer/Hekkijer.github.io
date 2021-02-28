@@ -1,0 +1,102 @@
+.header{
+	background-image: url("../../img/header/header_bg.jpg");
+	width: 100%;
+	height: 100vh;
+}
+
+/* Navigation Bar  */
+.header .navbar-bg {
+	border-bottom: 1px solid #626262;
+}
+
+.header .logo-wrapper{
+	display: flex;
+	align-items: center!important;
+}
+
+.header .navbar-list{
+	display: flex;
+	align-items: center!important;
+	justify-content: center!important;
+}
+
+.header .navbar-list-item{
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	padding: 38px 10px;
+	margin-right: 25px;
+}
+
+.header .navbar-list-item:nth-child(6){
+	margin-right: 0;
+}
+
+.header .navbar-list-item:hover,
+.header .navbar-list-item.active{
+	border-bottom: 5px solid #11749e;
+}
+
+.header .navbar-icons{
+	display: flex;
+	align-items: center!important;
+}
+
+.header .navbar-icon-wrapper{
+	margin-right: 25px;
+	color: #fff;
+}
+
+.header .navbar-icon{
+	height: 18px;
+	width: 18px;
+}
+
+/* Heading */
+.header-container{
+  padding-bottom: 108px;
+}
+
+.header .heading-wrapper{
+	padding-top: 270px;
+}
+
+.header .heading-title{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 120px;
+	color: #fff;
+	padding-bottom: 35px;
+}
+
+.header .heading-subtitle{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 25px;
+	color: #11749e;
+	letter-spacing: 10px;
+	line-height: 1.6;
+}
+
+/* Scroll Down Button */
+.header .scroll-button-area{
+	padding-top: 117px;
+	margin-bottom: 2%;
+}
+
+.header .scroll-button-caption{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 13px;
+	color: #fff;
+	padding-bottom: 23px;
+}
+
+.header .scroll-button-wrapper{
+	display: flex;
+	justify-content: center!important;
+}

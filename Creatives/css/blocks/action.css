@@ -1,0 +1,27 @@
+.action-bg{
+	background-color: #11749e;
+}
+
+.action-container{
+	padding-top: 111px;
+	padding-bottom: 156px;
+}
+
+.action-item-wrapper{
+	display: flex;
+	align-items: center!important;
+}
+
+.action-item-icon{
+	width: 70px;
+	height: 70px;
+}
+
+.action-item-content{
+	padding-left: 30px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 15px;
+	color: #fff;
+	line-height: 1.6;
+}

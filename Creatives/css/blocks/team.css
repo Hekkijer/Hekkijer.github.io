@@ -1,0 +1,62 @@
+.team-container{
+	padding-top: 140px;
+	padding-bottom: 100px;
+}
+
+.team .heading-title{
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 38px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 145px;
+}
+
+.team .heading-subtitle{
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.team .member-wrapper{
+	position: relative;
+	display: flex;
+	justify-content: center!important;
+}
+
+.team .member-icon{
+	width: 270px;
+	height: 415px;
+}
+
+.team .member-title{
+	width: 215px;
+	height: 85px;
+	position: absolute;
+	top: 367px;
+	left: 40px;
+	padding-top: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #fff;
+}
+
+.team .member-title h1{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 18px;
+	color: #11749e;
+	padding-bottom: 10px;
+}
+
+.team .member-title p{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 15px;
+	color: #000;
+}

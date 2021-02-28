@@ -1,0 +1,27 @@
+.footer{
+	background-color: #222222;
+	width: 100%;
+}
+
+.footer-container{
+	padding-top: 55px;
+	padding-bottom: 50px;
+}
+
+.footer-rights{
+	display: flex;
+	align-items: center!important;
+}
+
+.footer-autor{
+	display: flex;
+	align-items: center!important;
+	justify-content: flex-end!important;
+}
+
+.footer-text{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 13px;
+	color: #fff;
+}

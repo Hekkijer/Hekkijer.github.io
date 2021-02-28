@@ -1,0 +1,56 @@
+.feature{
+	background-image: url("../../img/feature/feature_bg.png");
+	width: 100%;
+}
+
+.feature-container{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.feature .content{
+	padding-left: 15px;
+	padding-top: 125px;
+}
+
+.feature .heading-title{
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 25px;
+	color: #fff;
+	padding-bottom: 40px;
+}
+
+.feature .heading-content{
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 15px;
+	color: #fff;
+	padding-bottom: 67px;
+}
+
+.feature .progress-wrapper{
+	width: 370px;
+	height: 40px;
+	background-color: #11749e;
+	padding-left: 20px;
+	display: flex;
+	align-items: center!important;
+	margin-bottom: 24px;
+}
+
+.feature .progress-wrapper:nth-child(2){
+	width: 400px;
+}
+
+.feature .progress-wrapper:nth-child(3){
+	width: 427px;
+	margin-bottom: 142px;
+}
+
+.feature .progress-title{
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 15px;
+	color: #fff;
+}

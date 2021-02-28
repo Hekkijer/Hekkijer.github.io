@@ -1,0 +1,53 @@
+.blog-container{
+	padding-top: 166px;
+	padding-bottom: 110px;
+}
+
+.blog .heading-title{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 38px;
+	color: #000;
+	padding-bottom: 114px;
+}
+
+.blog .heading-content{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 30px;
+	color: #000;
+	padding-bottom: 80px;
+}
+
+.blog .icon-wrapper{
+	height: 300px;
+	padding-bottom: 45px;
+	display: flex;
+	justify-content: center!important;
+}
+
+.blog .article-icon{
+	height: 300px;
+	width: 250px;
+}
+
+.blog .article-title{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 21px;
+	color: #11749e;
+	padding-bottom: 28px;
+	padding-top: 25px;
+}
+
+.blog .article-content{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 18px;
+	color: #000;
+	line-height: 1.6;
+}
