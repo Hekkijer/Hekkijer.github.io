@@ -209,4 +209,5 @@ h1,p{
 	.subtitle-wrapper{padding-top: 30px;}
 	.title-h1{padding-top: 10px;}
 	.subtitle-h1{padding-top: 10px;}
+	.works-item:hover{width: 100px; height: 100px;}
 }
