@@ -206,7 +206,7 @@ h1,p{
 @media screen and (max-width: 500px) {
 	h1{font-size: 44px;}
 	.works-item-wrapper{margin-right: 15px;}
-	.works-content{width: 360px};
+	.works-content{width: 360px;}
 	.subtitle-wrapper{padding-top: 30px;}
 	.title-h1{padding-top: 10px;}
 	.subtitle-h1{padding-top: 10px;}
