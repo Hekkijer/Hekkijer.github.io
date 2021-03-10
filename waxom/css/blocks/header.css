@@ -3,6 +3,8 @@
   background-image: url(../../assets/img/header/header-bg.png);
   width: 100%;
   height: 100vh;
+  background-position: 50% 50%;
+  background-size: cover;
   position: relative;
   z-index: 0;
 }
