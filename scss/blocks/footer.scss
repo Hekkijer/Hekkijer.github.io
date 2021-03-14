@@ -1,0 +1,20 @@
+.footer-section{
+  background-color: darken($main-color, 15%);
+  padding: 30px 15px 25px 15px;
+}
+
+.footer-phonenumber-wrapper{
+  display: flex;
+  align-items: center!important;
+}
+
+.footer-email-wrapper{
+  display: flex;
+  align-items: center!important;
+  justify-content: flex-end!important;
+}
+
+.footer-phonenumber-p,
+.footer-email-p{
+  color: $font-color;
+}
