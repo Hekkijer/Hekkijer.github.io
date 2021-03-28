@@ -1,0 +1,86 @@
+.gallery-container{
+  padding: 100px 50px 0px 50px;
+}
+
+.gallery-item{
+  background-color: grey;
+  height: 740px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.gallery-image{
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.7);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.gallery-overlay:hover{
+  opacity: 1;
+  transition: .4s;
+}
+
+.overlay-top{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0,0,0,.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.gallery-overlay-link{
+  text-decoration: underline;
+}
+
+.gallery-overlay-autor{
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.overlay-bottom{
+  display: flex;
+  width: 100%;
+  height: 640px;
+  align-items: flex-end;
+  padding: 0px 0px 20px 20px;
+}
+
+.gallery-button-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-button{
+  width: 550px;
+  height: 140px;
+  background-color: #54ACEC;
+  border-radius: 25px;
+  margin-bottom: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-button-title{
+  color: #fff;
+}
+
+.gallery-button:hover{
+  background-color: #1A4856;
+  transition: .4s;
+}

@@ -1,0 +1,26 @@
+.footer{
+  height: 100px;
+  padding-top: 10px;
+}
+
+.footer-nav-wrapper{
+  height: 110px;
+  background-color: #1A4856;
+}
+
+.footer-logo{
+  background-color: #58A7BF;
+  position: relative;
+}
+
+.footer-logo::after{
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 110px 89px;
+  border-color: transparent transparent #1A4856 transparent;
+}

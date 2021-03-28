@@ -1,0 +1,34 @@
+.features{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 170px 0;
+}
+
+.features-item{
+  width: 400px;
+  height: 300px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-item{
+  background-color: #58A7BF;
+}
+
+.feature-item-wrapper:nth-child(2) .features-item{
+  background-color: #1A4856;
+}
+
+.feature-item-text{
+  font-size: 48px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 63px;
+  text-align: center;
+}
+
+.feature-item-wrapper:nth-child(3) .feature-item-text{
+  max-width: 400px;
+}
